@@ -8,7 +8,7 @@
   - name: Change hostname of R1
     ios_config:
       lines:
-        - hostname R1_Chrysler
+        - hostname R1_tavares
     become: yes
     become_method: enable
 
