@@ -1,9 +1,9 @@
-[GNS3_router]
+[gns3_router]
 R1
 
-[GNS3_router:vars]
-ansible_user=cisco
-ansible_password=cisco
+[gns3_router:vars]
+ansible_user=tavares
+ansible_password=tavares
 ansible_network_os=ios
 ansible_become=yes
 ansible_become_method=enable

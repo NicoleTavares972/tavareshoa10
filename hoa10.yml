@@ -30,7 +30,7 @@
   - name: Configure password and activate login of line console 0
     ios_config:
       lines:
-        - password cisco
+        - password tavares
         - login
       parents: line console 0
     become: yes
@@ -39,7 +39,7 @@
   - name: Set enable secret password on R1
     ios_config:
       lines:
-        - enable secret class
+        - enable secret tavares
     become: yes
     become_method: enable
 
